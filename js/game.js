@@ -22,9 +22,9 @@ class Game {
         this.squidwardImage = loadImage("images/png-squidward-ohne-copyright.png")
         this.jellyfishImage = loadImage("images/png-jellyfish.png")
         this.youLostImage = loadImage("images/png-Squidward-bandages.png")
-        spongeFont = loadFont("Spongeboy Me Bob 400.ttf")
-        soundFormats("mp3")
-        spongeMusicGame = loadSound("sounds/SpongeBob SquarePants - Tomfoolery - game.mp3")
+        spongeFont = loadFont("SpongeboyMeBob400.ttf")
+        //soundFormats("mp3")
+        //spongeMusicGame = loadSound("sounds/SpongeBobSquarePants- Tomfoolery - game.mp3")
     }
 
     gameOver() {
