@@ -20,7 +20,7 @@ function setup() {
 	createCanvas(1400, 800)
 
 	//create a sound button
-	soundButton = createImg("../images/png-Squidward-music.png", "")
+	soundButton = createImg("images/png-Squidward-music.png", "")
 	soundButton.class("sound-button")
 	soundButton.mousePressed(playTheMusic)
 }

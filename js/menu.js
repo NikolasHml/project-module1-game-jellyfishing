@@ -48,7 +48,7 @@ class Menu {
         if (this.stage == 0 && this.buttonCheck == false) {
             if (!this.startGameButtonCreated) {
                 //console.log("hello sponge")
-                this.spongeButtonImg = createImg("../images/png-Spongebob-start.png", "")
+                this.spongeButtonImg = createImg("images/png-Spongebob-start.png", "")
                 this.spongeButtonImg.class("sponge-button")
                 //this.spongeButtonImg.parent(div1)
                 this.startGameButtonCreated = true
