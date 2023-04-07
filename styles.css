@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Spongebob;
+    src: url(Spongeboy\ Me\ Bob\ 400.ttf);
+}
+
+body {
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/png-weichfilter-wallpaper-background.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Spongebob;
+    font-size: 12px; 
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.sponge-button {
+    display: inline-block;
+    position: relative;
+    bottom: 325px; 
+    right: -325px; 
+    width: 325px;
+    height: 200px; 
+} 
+
+/* .patrick-button {
+    display: inline-block;
+    position: relative; 
+    bottom: 490px; 
+    right: 370px; 
+    width: 160px;
+    height: 160px;
+}  */
+
+.start-game-button {
+    display: flex;
+    position: relative;
+    bottom: 330px; 
+    right: -40px; 
+    width: 400px;
+    height: 75px;  
+    font-size: 50px; 
+    border: none;
+    background-color: transparent;
+    font-family: Spongebob;
+    color: yellow;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.retry-button {
+    display: inline-block;
+    position: relative;
+    bottom: 205px; 
+    right: -150px; 
+    width: 400px;
+    height: 75px;  
+    font-size: 30px; 
+    border: none;
+    background-color: transparent;
+    font-family: Spongebob;
+    color: yellow;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.back-to-menu-button {
+    display: inline-block;
+    position: relative;
+    bottom: 280px; 
+    right: 100px; 
+    width: 400px;
+    height: 75px;  
+    font-size: 30px; 
+    border: none;
+    background-color: transparent;
+    font-family: Spongebob;
+    color: yellow;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.sound-button {
+    position: absolute;
+    bottom: 730px;  
+    right: 1300px; 
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
+/* img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* #score {
+    margin-right: 800px;
+}
+
+#lifes {
+    white-space: nowrap;
+}
+ */
