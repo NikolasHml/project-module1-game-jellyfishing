@@ -17,14 +17,14 @@ class Game {
     }
 
     preload() {
-        this.backgroundImage = loadImage("../images/png-pirate-with-jellyfields-background.png")
-        this.playerImage = loadImage("../images/png-Spongebob.png")
-        this.squidwardImage = loadImage("../images/png-squidward-ohne-copyright.png")
-        this.jellyfishImage = loadImage("../images/png-jellyfish.png")
-        this.youLostImage = loadImage("../images/png-Squidward-bandages.png")
-        spongeFont = loadFont("../Spongeboy Me Bob 400.ttf")
+        this.backgroundImage = loadImage("images/png-pirate-with-jellyfields-background.png")
+        this.playerImage = loadImage("images/png-Spongebob.png")
+        this.squidwardImage = loadImage("images/png-squidward-ohne-copyright.png")
+        this.jellyfishImage = loadImage("images/png-jellyfish.png")
+        this.youLostImage = loadImage("images/png-Squidward-bandages.png")
+        spongeFont = loadFont("Spongeboy Me Bob 400.ttf")
         soundFormats("mp3")
-        spongeMusicGame = loadSound("../sounds/SpongeBob SquarePants - Tomfoolery - game.mp3")
+        spongeMusicGame = loadSound("sounds/SpongeBob SquarePants - Tomfoolery - game.mp3")
     }
 
     gameOver() {

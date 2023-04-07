@@ -19,14 +19,14 @@ class Menu {
         }
   
     preload() {
-        this.backgroundImage = loadImage("../images/png-pirate-intro-background.png")
-        this.spongeStartImage = loadImage("../images/png-Spongebob-start.png")
-        this.patrickInstructionsImage = loadImage("../images/png-Patrick-instructions.png")
-        this.squidwardMusicImage = loadImage("../images/png-Squidward-music.png")
-        this.sandyHighscoreImage = loadImage("../images/png-Sandy-highscore.png")
-        spongeFont = loadFont("../Spongeboy Me Bob 400.ttf")
+        this.backgroundImage = loadImage("images/png-pirate-intro-background.png")
+        this.spongeStartImage = loadImage("images/png-Spongebob-start.png")
+        this.patrickInstructionsImage = loadImage("images/png-Patrick-instructions.png")
+        this.squidwardMusicImage = loadImage("images/png-Squidward-music.png")
+        this.sandyHighscoreImage = loadImage("images/png-Sandy-highscore.png")
+        spongeFont = loadFont("Spongeboy Me Bob 400.ttf")
         soundFormats("mp3")
-        spongeMusicMenu = loadSound("../sounds/SpongeBob SquarePants - The Rake Hornpipe - menu.mp3")
+        spongeMusicMenu = loadSound("sounds/SpongeBob SquarePants - The Rake Hornpipe - menu.mp3")
         }
   
     draw() {
